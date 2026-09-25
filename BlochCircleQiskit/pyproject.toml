@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bloch-circle"
+version = "0.1.0"
+description = "Visualise a qubit on a 2-D Bloch circle for Qiskit"
+requires-python = ">=3.9"
+dependencies = [
+    "qiskit>=1.0",
+    "matplotlib>=3.5",
+    "numpy>=1.22",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]

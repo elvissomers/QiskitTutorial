@@ -1,0 +1,9 @@
+pyproject.toml
+bloch_circle/__init__.py
+bloch_circle/plot.py
+bloch_circle/validation.py
+bloch_circle.egg-info/PKG-INFO
+bloch_circle.egg-info/SOURCES.txt
+bloch_circle.egg-info/dependency_links.txt
+bloch_circle.egg-info/requires.txt
+bloch_circle.egg-info/top_level.txt
